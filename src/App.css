@@ -10,6 +10,41 @@
 .lhob {
   width: 100px;
 }
+.content {
+  background-color: lightblue;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  position: relative;
+  width: 800px;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2),
+    inset 0 0 50px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.beansNTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.beanBoxText {
+  margin: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.favBean {
+  display: flex;
+  justify-content: flex-end;
+}
 
 /* .App {
   text-align: center;
