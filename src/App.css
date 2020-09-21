@@ -1,4 +1,17 @@
-.App {
+.header {
+  background-color: crimson;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: x-large;
+}
+
+.lhob {
+  width: 100px;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +48,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
