@@ -1,15 +1,13 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Box from "./components/Box";
+import Content from "./components/Content";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <div className="content">
-        <Box />
-      </div>
+      <Content />
     </div>
   );
 }
